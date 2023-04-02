@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+/* HEADER CSS START */
+header{
+    position: absolute;
+    top: 0;
+    height: 62px;
+    width: 100%;
+}
+.left_header{
+    background-color: rgba(128, 128, 128, 0.498);
+    margin-bottom: 4px;
+}
+.left_header img{
+    width: 50px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.title span{
+    color: white;
+    width: 60%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.516);
+    padding: 2px 0px;
+    border-radius: 5px;
+    font-size: 5rem;
+}
+/* HEADER CSS END */
+/* MAIN CSS START */
+.link_button{
+    position: relative;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+.link_button ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link_button ul li{
+    margin-right: 30px;
+    width: 150px;
+}
+
+.link_button ul li button{
+    padding: 10px;
+    background: #0f1889aa;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+}
+.link_button ul li button:hover{
+   background: linear-gradient(25deg,#00d0ffa2,#00804484);
+}
+.reg_form,.display_table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.reg_form form{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-color: #00000091;
+    width: 50%;
+    padding: 10px ;
+    border-radius: 3px;
+}
+.reg_form form span{
+    color: white;
+    margin-bottom: 10px;
+}
+.reg_input{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.reg_input label{
+    color: white;
+}
+.reg_input input,select{
+padding: 2px;
+background: transparent;
+border-radius: 5px;
+color: gray;
+outline: none;
+}
+.reg_input button{
+    background-color:#0f1889aa;
+    padding: 5px;
+    margin-top: 3px;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.reg_input button:hover{
+    background: linear-gradient(25deg,#00d0ffa2,#00804484);
+}
+.reg_input p {
+    color: red;
+}
+.success{
+    margin-bottom: 3px;
+}
+.success p{
+    color: green;
+}
+
+.display_table table td{
+    border: black solid 1px;
+    text-align: center;
+}
+/* MAIN CSS END */
+/* FOOTER CSS START */
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #80808087;
+    color: white;
+    width: 100%;
+    padding: 5px 0px;
+    height: 25px;
+}
+
+/* FOOTER CSS END */
