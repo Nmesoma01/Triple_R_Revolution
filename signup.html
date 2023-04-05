@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/signup_and_login.css" />
+    <title>Triple R Revolution</title>
+  </head>
+  <body>
+    <header>
+      <div class="left_header">
+        <img src="logo.jpg" alt="logo" />
+      </div>
+      <div class="rigth_header"></div>
+    </header>
+    <div class="title">
+      <span>Fill this form to sign up</span>
+      <br />
+    </div>
+    <main>
+      <div class="link_button">
+        <ul>
+          <li><button>Home</button></li>
+          <li><button>For you</button></li>
+          <li><button>Login</button></li>
+        </ul>
+      </div>
+
+      <!-- REGISTER FORM START -->
+      <div class="register">
+        <div class="reg_form">
+          <form action="">
+            <span>REGISTER </span>
+            <div class="reg_input">
+              <label for="">Enter Name</label>
+              <input type="text" placeholder="Enter Name" id="Cname" />
+            </div>
+            <div class="reg_input">
+              <label for="">Enter Phone</label>
+              <input type="text" placeholder="Enter Phone" id="Cphone" />
+            </div>
+            <div class="reg_input">
+              <label for="">Enter Email</label>
+              <input type="email" placeholder="Enter Email" id="Cemail" />
+            </div>
+
+            <div class="reg_input">
+              <label for="pw">Enter Password:</label>
+              <input
+                type="password"
+                for="pw"
+                placeholder="Enter password
+            "
+                id="Cpassword"
+              />
+            </div>
+
+            <div class="reg_input">
+              <label for="">Enter Country</label>
+              <input type="text" placeholder="Enter Country" id="Clocation" />
+            <div class="success">
+              <p>Registered Successfully</p>
+            </div>
+            <div class="reg_input">
+              <!-- <label for="">Enter Location</label> -->
+              <button>SUBMIT</button>
+            </div>
+          </form>
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        {{ form.username }}
+        {{ form.password }} 
+        {{ form.submit }} 
+    </form>
+        </div>
+      </div>
+      <!-- REGISTER FORM END -->
+
+
+      <!-- DISPLAY END -->
+    </main>
+
+    <footer>REDUCE, REUSE & RECYCLE</footer>
+  </body>
+</html>
