@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/signup_and_login.css" />
+    <title>Triple R Revolution</title>
+  </head>
+  <body>
+    <header>
+      <div class="left_header">
+        <img src="logo.jpg" alt="logo" />
+      </div>
+      <div class="rigth_header"></div>
+    </header>
+    <div class="title">
+      <span>Fill this form to log in</span>
+      <br />
+    </div>
+    <main>
+      <div class="link_button">
+        <ul>
+          <li><button>Home</button></li>
+          <li><button>For you</button></li>
+          <li><button>Sign Up</button></li>
+        </ul>
+      </div>
+
+      
+            <div class="reg_input">
+          <label for="">Enter Email</label>
+          <input type="email" placeholder="Enter Email" id="Cemail" name="{{form.username.name}}" value="{{ form.username.data }}" />
+        </div>
+
+        <div class="reg_input">
+          <label for="pw">Enter Password:</label>
+          <input
+            type="password"
+            for="pw"
+            placeholder="Enter password"
+            id="Cpassword"
+            name="{{ form.password.name }}" value="{{ form.password.data }}"
+          />
+        </div>
+
+        
+        <div class="reg_input">
+          <!-- <label for="">Enter Location</label> -->
+          <button type="submit" name="{{ form.submit.name }}">{{ form.submit.label }}</button>
+        </div>
+      </form>
+
+          <a href="{{url_for('signup')}}">If you don't have an account, sign up!!!</a>
+        </div>
+      </div>
+      <!-- REGISTER FORM END -->
+      
+    </main>
+
+    <footer>REDUCE, REUSE & RECYCLE</footer>
+  </body>
+</html>
