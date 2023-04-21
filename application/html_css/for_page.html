@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <title>Like Button Example</title>
+</head>
+<body>
+    <main>
+        <div class="users">
+          <div><img src="" alt="" /></div>
+        </div>
+        <div class="submain">
+          <div class="user_post">
+            <div class="user_info">
+              <img src="Images/User1.jpg" alt="UserProfile" />
+              <h2>Uwimbabazi Emelyne</h2>
+            </div>
+    <div class="post_content">
+        <p>
+        </p>
+        <img src="Images/Emelyne_post.jpg" alt="User_Post Photo">
+      </div>
+    <p>likes: {{ count }}</p>
+    <form method="POST" action="{{ url_for('like') }}">
+      <div class="like_div">
+        <button type="submit"><img src="images/Like.png" alt="" /></button>
+      </div>
+    </form>
+</body>
+</html>

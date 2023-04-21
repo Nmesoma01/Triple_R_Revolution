@@ -1,0 +1,20 @@
+body {
+    background-color: #BACD9C; /* Use the named color "red" */
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.image-container {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%
+}
+.User1 {
+    width: 300px;
+    clip-path: circle();   
+}
+.User1 {
+    float: left;
+    padding: 15px;
+}

@@ -12,6 +12,7 @@ body{
     position: relative;
     padding-top: 50px;
     padding-bottom: 10px;
+    background-color: #BACD9C
 }
 /* HEADER CSS START */
 header{
@@ -21,7 +22,7 @@ header{
     width: 100%;
 }
 .left_header{
-    background-color: rgba(128, 128, 128, 0.498);
+    background-color: #F4D8BF;
     margin-bottom: 4px;
 }
 .left_header img{
@@ -38,7 +39,7 @@ header{
     color: white;
     width: 60%;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.516);
+    background-color: #F4D8BF;
     padding: 2px 0px;
     border-radius: 5px;
     font-size: 5rem;
@@ -65,7 +66,7 @@ header{
 
 .link_button ul li button{
     padding: 10px;
-    background: #0f1889aa;
+    background: #F4D8BF;
     border: none;
     border-radius: 5px;
     color: white;
@@ -113,7 +114,7 @@ color: gray;
 outline: none;
 }
 .reg_input button{
-    background-color:#0f1889aa;
+    background-color:#F4D8BF;
     padding: 5px;
     margin-top: 3px;
     outline: none;

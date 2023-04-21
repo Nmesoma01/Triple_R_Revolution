@@ -31,7 +31,7 @@ a {
 header {
   width: 100%;
   height: 60px;
-  background-color: #488e00;
+  background-color: #F4D8BF;
   position: relative;
   top: 0;
 }
@@ -39,7 +39,7 @@ header {
 footer {
   width: 100%;
   height: 80px;
-  background-color: #488e00;
+  background-color: #BACD9C;
   position: relative;
   bottom: 0;
   text-align: center;
@@ -74,7 +74,7 @@ footer {
 }
 
 .main {
-  background-image: url("../Images/back.jpg");
+  background-image: url("back.jpg");
   background-size: cover;
   height: 500px;
   display: flex;
@@ -84,7 +84,7 @@ footer {
 }
 
 .main button {
-  background-color: #488e00;
+  background-color: #BACD9C;
   outline: none;
   border: none;
   color: aliceblue;
@@ -109,27 +109,27 @@ footer {
   grid-gap: 10px;
   justify-content: center;
   margin-top: 20px;
-  background-color: #488e00;
+  background-color: #F4D8BF;
 }
 
 .about_div:hover,
 .about_div::selection,
 .about_div:active {
-  background-color: #488e00;
-  color: aliceblue;
+  background-color: #BACD9C;
+  color: #CFE6EF;
 }
 
 .about {
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   text-align: justify;
-  border: 1px solid #488e00;
+  border: 1px solid #CFE6EF;
   border-radius: 10px;
   padding: 5px;
 }
 
 .about_image {
-  border: 1px solid #488e00;
+  border: 1px solid #BACD9C;
   border-radius: 10px;
   padding: 5px;
 }
@@ -153,7 +153,7 @@ main{
   grid-gap: 10px;
   border:  2px solid #488e00;
   border-radius: 10px;
-  background-color: lightgray;
+  background-color: #BACD9C;
   min-height: 0;
   min-width: 0;
 }
@@ -215,7 +215,7 @@ main{
   margin: 10px;
 }
 .like_div span{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
 }
 .comment input{
   outline: none;
@@ -223,7 +223,7 @@ main{
   margin-top: 5px;
   width: 100%;
   height: 30px;
-  background-color: lightgray;
+  background-color: #CFE6EF;
 }
 .comment input::placeholder{
   font-size: 16px;
